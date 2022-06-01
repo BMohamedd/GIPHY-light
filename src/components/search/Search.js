@@ -18,7 +18,7 @@ function Search() {
     if (searchInput === "") {
       console.log("please fill the search input");
     } else {
-      const requestUrl = `http://api.giphy.com/v1/gifs/search?api_key=kfUZteHiVDjbHfqpNf659vZQanqrPMlR&q=${searchInput}&rating=pg-13`;
+      const requestUrl = `https://api.giphy.com/v1/gifs/search?api_key=kfUZteHiVDjbHfqpNf659vZQanqrPMlR&q=${searchInput}&rating=pg-13`;
       axios
         .get(requestUrl)
         .then(({ data }) => {
