@@ -7,7 +7,7 @@ import SearchResults from "./components/search/SearchResults";
 import RecommendedGifs from "./components/recommended/RecommendedGifs";
 import About from "./components/other/About";
 import Error from "./components/other/Error";
-import "./app.css";
+import "./App.css";
 
 const ThemeOptions = {
   typography: {
